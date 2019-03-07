@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+<!-- 代码是通过下面的pageName来定位去读取哪个页面的定位信息
+pageName是取测试case的类名前半部分
+如Register_SuccessTester_002，取的是 Register-->
+
+<!-- 注册页面 -->
+<page pageName="Register">
+<locaters>
+<locator by="id" value="mobilephone" des="手机号输入框"></locator>
+<locator by="id" value="password" des="密码输入框"></locator>
+<locator by="id" value="pwdconfirm" des="确认密码输入框"></locator>
+<locator by="id" value="signup-button" des="注册按钮"></locator>
+<locator by="className" value="tips" des="提示信息"></locator>
+</locaters>
+</page>
+
+<!-- 登录页面 -->
+<page pageName="Login">
+<locaters>
+<locator by="id" value="mobilephone" des="手机号输入框"></locator>
+<locator by="id" value="password" des="密码输入框"></locator>
+<locator by="id" value="login" des="登录按钮"></locator>
+<locator by="id" value="reset" des="重置按钮"></locator>
+</locaters>
+</page>
+
+
+
+</pages>
